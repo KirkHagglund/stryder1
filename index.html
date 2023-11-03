@@ -19,9 +19,128 @@
 
     <link rel="stylesheet" href="assets/style.css" />
     <title>Stryder Performance</title>
+    <link rel="icon" href="assets/images/compass.png" type="image/x-icon" />
     
 </head>
 <body>
+  <nav id="navigation" class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <nav class="navbar navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/images/headerlogo.png"
+              alt="Company Logo"
+              height="70"
+            />
+          </a>
+        </div>
+      </nav>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul
+          class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid justify-content-end"
+        >
+          <li class="nav-item">
+            <a class="nav-link d-lg-none" id="nav-home-burger" href="#">
+              <span
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                >Home</span
+              ></a
+            >
+            <a
+              class="nav-link d-none d-lg-block"
+              id="nav-home"
+              aria-current="page"
+              href="#"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link d-lg-none"
+              id="nav-about-burger"
+              href="#mission"
+            >
+              <span
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                >About Us</span
+              ></a
+            >
+            <a
+              class="nav-link d-none d-lg-block"
+              id="nav-about"
+              href="#mission"
+              >About Us</a
+            >
+          </li>
+          <li class="nav-item dropdown" data-dropdown="">
+            <a
+              class="nav-link dropdown-toggle"
+              id="nav-service"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              data-dropdown-button
+              >Our Services</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="compliance.html"
+                  >Monitoring & Regulatory Compliance</a
+                >
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="solutions.html"
+                  >Integrated Solutions</a
+                >
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="training.html"
+                  >Training & Awareness</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link d-lg-none"
+              id="nav-contact-burger"
+              href="#contact"
+            >
+              <span
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                >Contact Us</span
+              ></a
+            >
+            <a
+              class="nav-link d-none d-lg-block"
+              id="nav-contact"
+              href="#contact"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <h1>Hello World!</h1>   
 </body>
 </html>
