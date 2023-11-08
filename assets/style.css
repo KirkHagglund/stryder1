@@ -1,0 +1,18 @@
+:root {
+    --maintheme: rgb(44, 61, 216);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+BODY {
+    position: relative;
+    padding-top: 70px;
+}
