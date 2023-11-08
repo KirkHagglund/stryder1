@@ -21,16 +21,18 @@
     <title>Stryder Performance</title>
     <link rel="icon" href="assets/images/compass.png" type="image/x-icon" />
   </head>
+
   <body>
-    <nav id="navigation" class="navbar navbar-expand-md navbar-light bg-light">
-      <div class="container-fluid">
-        <nav class="navbar navbar-light">
+    <nav id="navigation" class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid" id="nav-div">
+        <nav class="navbar navbar-dark p-0">
           <div class="container">
             <a class="navbar-brand" href="#">
               <img
-                src="assets/images/StryderLogo.png"
+                id="main-logo"
+                src="https://stryderperformance.com/img/Stryder-inverted.b98198ae.png"
                 alt="Company Logo"
-                height="70"
+                height="100"
               />
             </a>
           </div>
@@ -51,7 +53,11 @@
             class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid justify-content-end"
           >
             <li class="nav-item">
-              <a class="nav-link d-lg-none" id="nav-home-burger" href="coaching.html">
+              <a
+                class="nav-link d-lg-none bg-dark"
+                id="nav-coaching-burger"
+                href="coaching.html"
+              >
                 <span
                   data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent"
@@ -60,7 +66,7 @@
               >
               <a
                 class="nav-link d-none d-lg-block"
-                id="nav-home"
+                id="nav-coaching"
                 aria-current="page"
                 href="coaching.html"
                 >Coaching</a
@@ -68,8 +74,8 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link d-lg-none"
-                id="nav-about-burger"
+                class="nav-link d-lg-none bg-dark"
+                id="nav-resources-burger"
                 href="resources.html"
               >
                 <span
@@ -80,15 +86,15 @@
               >
               <a
                 class="nav-link d-none d-lg-block"
-                id="nav-about"
+                id="nav-resources"
                 href="resources.html"
                 >Resources</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link d-lg-none"
-                id="nav-about-burger"
+                class="nav-link d-lg-none bg-dark"
+                id="nav-products-burger"
                 href="products.html"
               >
                 <span
@@ -99,15 +105,15 @@
               >
               <a
                 class="nav-link d-none d-lg-block"
-                id="nav-about"
+                id="nav-products"
                 href="products.html"
                 >Products</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link d-lg-none"
-                id="nav-contact-burger"
+                class="nav-link d-lg-none bg-dark"
+                id="nav-blog-burger"
                 href="blog.html"
               >
                 <span
@@ -118,7 +124,7 @@
               >
               <a
                 class="nav-link d-none d-lg-block"
-                id="nav-contact"
+                id="nav-blog"
                 href="blog.html"
                 >Blog</a
               >
@@ -127,6 +133,30 @@
         </div>
       </div>
     </nav>
-    <h1>Hero Banner</h1>
+
+    <div class="home-splash">
+      <div class="splash-wrapper">
+        <img
+        id="hero-img"
+          src="assets/images/hero.png"
+          class="cover cover-center"
+          alt=""
+          title=""
+          draggable="false"
+        />
+      </div>
+      <div id="hero-text" class="content-wrapper row">
+        <div
+          class="content col-xs-10 col-sm-9 col-md-7 col-md-offset-1 col-lg-6"
+        >
+          <h1 id="hero-heading" class="sans-serif medium">Your Partners In Growth</h1>
+          <p id="hero-p" class="heading">
+            We study the science of performance across diverse disciplines to
+            design learning experiences that help people perform, collaborate
+            and lead in a disruptive world.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
