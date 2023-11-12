@@ -134,10 +134,10 @@
       </div>
     </nav>
 
-    <div class="home-splash">
+    <div class="home-splash container-fluid" id="home-splash">
       <div class="splash-wrapper">
         <img
-        id="hero-img"
+          id="hero-img"
           src="assets/images/hero.png"
           class="cover cover-center"
           alt=""
@@ -146,10 +146,12 @@
         />
       </div>
       <div id="hero-text" class="content-wrapper row">
-        <div
-          class="content col-xs-10 col-sm-9 col-md-7 col-md-offset-1 col-lg-6"
+        <div id="content-box"
+          class="content col-xs-10 col-sm-9 col-md-7 col-md-offset-1 col-lg-6 bg-light"
         >
-          <h1 id="hero-heading" class="sans-serif medium">Your Partners In Growth</h1>
+          <h1 id="hero-heading" class="sans-serif medium">
+            Your Partners In Growth
+          </h1>
           <p id="hero-p" class="heading">
             We study the science of performance across diverse disciplines to
             design learning experiences that help people perform, collaborate
@@ -158,5 +160,91 @@
         </div>
       </div>
     </div>
+
+    <div id="contact-container" class="container my-3 bg-light">
+      <h3 class="row justify-content-center pt-5" id="contact">
+        Get In Touch With Us
+      </h3>
+      <!-- Wrapper container -->
+      <div class="container py-4">
+        <!-- Bootstrap 5 starter form data-sb-form-api-token="API_TOKEN" -->
+        <form
+          id="contactForm"
+          action=""
+          method="POST"
+        >
+          <!-- Honeypot Section -->
+          <input type="text" name="_honey" style="display: none" />
+
+          <!-- Disable Captcha -->
+          <input type="hidden" name="_captcha" value="false" />
+
+          <input
+            type="hidden"
+            name="_next"
+            value="https://kirkhagglund.github.io/Arkaterra1/success.html"
+          />
+          <!-- Name input -->
+          <div class="mb-3">
+            <label class="form-label" for="name">Name</label>
+            <input
+              class="form-control"
+              name="name"
+              id="name"
+              type="text"
+              placeholder="Name"
+              required
+            />
+          </div>
+
+          <!-- Email address input -->
+          <div class="mb-3">
+            <label class="form-label" for="emailAddress">Email Address</label>
+            <input
+              class="form-control"
+              name="emailAddress"
+              id="emailAddress"
+              type="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+
+          <!-- Message input -->
+          <div class="mb-3">
+            <label class="form-label" for="message">Message</label>
+            <textarea
+              class="form-control"
+              name="message"
+              id="message"
+              type="text"
+              placeholder="Message"
+              style="height: 10rem"
+              required
+            ></textarea>
+          </div>
+
+          <!-- Form submit button -->
+          <div class="d-grid">
+            <button
+              class="btn btn-lg bg-dark text-light"
+              style="
+                width: 50%;
+              "
+              id="submitButton"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="bg-dark footer">
+      <div class="container-fluid">
+        <h1 class="text-center text-light">Footer</h1>
+      </div>
+    </footer>
   </body>
 </html>
