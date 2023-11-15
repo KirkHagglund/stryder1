@@ -64,6 +64,7 @@ body {
 
 #hero-img {
   width: 115%;
+  padding-top: 25px;
 }
 
 #hero-text {
@@ -74,6 +75,11 @@ body {
     font-size: larger;
 }
 
+#content-box {
+  background-color: rgba(252, 250, 250, 0.4);
+  border-radius: 25px;
+}
+
 #hero-heading {
     font-size: 48px;
 }
@@ -82,15 +88,34 @@ body {
     font-size: larger;
 }
 
+#about-section {
+  margin: 0 auto;
+  height: 800px;
+  width: 75%;
+  position: relative;
+  top: 325px;
+}
+
 #contact-container {
   position: relative;
-  top: 300px;
+  top: 325px;
+  width: 75%;
+}
+
+#coach-section {
+  position: relative;
+  top: 120px;
+}
+
+#coach-title {
+  width: 100%;
 }
 
 footer {
   position: relative;
-  top: 300px;
+  top: 325px;
   width: 100%;
   height: 120px;
   margin: 0 auto;
+  padding-top: 20px;
 }
