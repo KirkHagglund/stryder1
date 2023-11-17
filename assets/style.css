@@ -90,16 +90,18 @@ body {
 
 #about-section {
   margin: 0 auto;
-  height: 800px;
   width: 75%;
   position: relative;
   top: 325px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #contact-container {
   position: relative;
   top: 325px;
   width: 75%;
+  border-radius: 10px;
 }
 
 #coach-section {
@@ -118,4 +120,8 @@ footer {
   height: 120px;
   margin: 0 auto;
   padding-top: 20px;
+}
+
+.footer-child {
+  margin-bottom: 0rem;
 }
