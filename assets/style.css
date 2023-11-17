@@ -45,8 +45,8 @@ body {
 #nav-resources-burger,
 #nav-products,
 #nav-products-burger,
-#nav-blog,
-#nav-blog-burger {
+#nav-twitter,
+#nav-twitter-burger {
   font-size: larger;
   text-align: center;
   padding-left: 1rem;
@@ -111,6 +111,19 @@ body {
 
 #coach-title {
   width: 100%;
+}
+
+.video-container {
+  border-radius: 5px;
+  border: solid black 1px;
+  width: 85%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.video-card {
+  width: 50%;
+  padding: 5px;
 }
 
 footer {
