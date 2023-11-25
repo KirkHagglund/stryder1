@@ -88,6 +88,23 @@ body {
     font-size: larger;
 }
 
+#service-section {
+  margin: 0 auto;
+  width: 85%;
+  position: relative;
+  top: 325px;
+  padding-top: 25px;
+}
+
+.service-card {
+  border: grey solid 1px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
 #about-section {
   margin: 0 auto;
   width: 75%;
