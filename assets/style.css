@@ -130,6 +130,13 @@ body {
   width: 100%;
 }
 
+.coaching-section,
+.assessment-section,
+.consulting-section {
+  position: relative;
+  top: 125px;
+}
+
 .video-container {
   border-radius: 5px;
   border: solid black 1px;
