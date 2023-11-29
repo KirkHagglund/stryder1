@@ -126,11 +126,27 @@ body {
 
 #about-section {
   margin: 0 auto;
-  width: 75%;
+  width: 80%;
   position: relative;
   top: 325px;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.carousel-item {
+  height: 22rem;
+  background: #777;
+  color: white;
+  position: relative;
+}
+
+.carousel-card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80%;
 }
 
 #contact-container {
