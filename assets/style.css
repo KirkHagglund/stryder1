@@ -97,7 +97,7 @@ body {
 }
 
 .service-card {
-  border: grey solid 1px;
+  border: #777 solid 1px;
   border-radius: 5px;
   margin-left: 15px;
   margin-right: 15px;
@@ -107,6 +107,7 @@ body {
   position: relative;
   transition: 0.3s ease;
   opacity: 1;
+  color: #777;
 }
 
 .service-card:hover {
@@ -135,9 +136,11 @@ body {
 
 .carousel-item {
   height: 22rem;
-  background: #777;
+  background: linear-gradient(#777, #292b2c);
   color: white;
   position: relative;
+  border-radius: 5px;
+  
 }
 
 .carousel-card {
