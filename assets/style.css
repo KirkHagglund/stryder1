@@ -201,21 +201,21 @@ body {
   position: absolute;
   top: 10%;
   left: 0;
-  transform: translateX(20%);
+  transform: translateX(19%);
 }
 
 .app-title {
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translateX(30%);
+  transform: translateX(29%);
 }
 
 .app-description {
   position: absolute;
-  top: 60%;
+  top: 58%;
   left: 0;
-  transform: translateX(20%);
+  transform: translateX(12%);
   width: 80%;
 }
 
