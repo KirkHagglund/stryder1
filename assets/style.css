@@ -168,9 +168,7 @@ body {
   width: 100%;
 }
 
-.coaching-section,
-.assessment-section,
-.consulting-section {
+.service-body {
   position: relative;
   top: 125px;
 }
