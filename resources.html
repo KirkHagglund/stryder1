@@ -16,6 +16,7 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/script.js"></script>
 
     <link rel="stylesheet" href="assets/style.css" />
     <title>Stryder Performance</title>
@@ -152,6 +153,123 @@
         </div>
       </div>
     </nav>
+
+    <!--Sidebar-->
+    <aside class="sidebar">
+      <div class="aside-card container d-flex flex-column">
+        <a href="#" onclick="toggleContent(0)"
+          ><button type="button" class="btn btn-light aside-btns">
+            Our Channel
+          </button></a
+        >
+        <a href="#" onclick="toggleContent(1)">
+          <button type="button" class="btn btn-light aside-btns">
+            Coaching Resources
+          </button></a
+        >
+        <a href="#" onclick="toggleContent(2)"
+          ><button type="button" class="btn btn-light aside-btns">
+            Blog
+          </button></a
+        >
+      </div>
+    </aside>
+
+    <!--Section will use js to toggle display on click-->
+    <div id="main-content">
+      <div class="content" id="content1">
+        <h3>Follow Us On YouTube</h3>
+        <p>
+          This should be a YouTube icon that is a clickable hyperlink to navigate to our channel.
+        </p>
+        <h5>Follow this by posting one or two of the most recent clips up.</h5>
+      </div>
+      <div class="content" id="content2">
+        <h3>Supplemental Material</h3>
+        <p>
+          There once was a man from Nantucket, I think they rhyme this line with
+          bucket. I don't know the rest but I'm sure its the best, the best rare
+          beef pho bo comes from Phuket.
+        </p>
+      </div>
+      <div class="content" id="content3">
+        <h3>Blog Posts</h3>
+        <div class="card-body">
+          <h2>
+            Julius Caesar and the Art of Thinking Strategically
+          </h2>
+          <br />
+          <div class="grid">
+            <div class="media">
+              <img
+                src="assets/images/caesar.png"
+                alt="Julius Caesar"
+              />
+            </div>
+            <div>
+                Of the many qualities that made Caesar a great leader, perhaps
+                none were more important than his proficiency as a strategist.
+                In both military and political matters, Caesar’s strategies
+                proved effective.
+              </p>
+              <p>
+                One such strategy, divide and conquer, was made famous by Caesar
+                while fighting the Gallic Wars. Also during this war came one of
+                Caesars greatest challenges and triumphs in the form of the 52BC
+                siege of Alesia. Defending this nearly impregnable Gallic
+                stronghold was Vercingetorix, the leader of the Gallic
+                Confederacy, at the head of 80,000 warriors. Caesar quickly
+                implemented his plan to capture the city and began construction
+                of siege works. Caesar planned to build a wall encircling the
+                town, which would be defended by towers, battlements, and
+                trenches. When completed the wall extended 10 miles, and formed
+                a ring around Alesia.
+              </p>
+              <p>
+                However, before it was fully finished, Vercingetorix sent out
+                riders to gather reinforcements from the tribes of Gaul. Caesar
+                immediately ordered the construction of a second wall, meant to
+                defend against the reinforcements that would soon arrive. This
+                exterior wall formed a 14-mile barrier, and was strengthened
+                with towers, traps, pits, and two large trenches. Caesar had the
+                inner trench filled with water diverted from nearby streams.
+                Knowing that when reinforcements arrived his troops would be
+                unable to forage, Caesar had each man gather enough food to last
+                a month.
+              </p>
+              <p>
+                Alas, Vercingetorix’s plea was answered and 260,000 Gauls
+                arrived to put Caesars plan to the test. With this large army,
+                the Gallic forces now outnumbered the Romans 4 to 1. While
+                simultaneously defending multiple fronts Caesars army managed to
+                stave off the perpetual onslaught of the two armies which were
+                fighting desperately to force a passage through the Roman
+                defenses. Caesar waited patiently for the opportune moment to
+                counter the reinforcing army and when the opportunity presented
+                itself. he ordered the attack and sent his cavalry out to flank
+                the enemy and deliver the decisive blow.
+              </p>
+              <p>
+                Devastated and panic stricken, the supporting army fled the
+                field of battle, pursued by Caesar’s cavalry. As the remnants of
+                his army lay in ruin, completely surrounded and with no hope of
+                further aid, Veringetorix issued his surrender and acknowledged
+                Roman rule.
+              </p>
+              <p>
+                By way of superior strategy and discipline, a smaller army had
+                bested a much larger force and although Caesar’s career was far
+                from over, the conquest of Gaul was nearly complete.
+              </p>
+              <p>By Bjorn Hagglund</p>
+              <p>
+                <i>Thurs Sept 13 2012</i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="video-container">
       <h2 class="text-center">Intent. "What is Leadership?"</h2>

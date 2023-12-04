@@ -140,7 +140,6 @@ body {
   color: white;
   position: relative;
   border-radius: 5px;
-  
 }
 
 .carousel-card {
@@ -248,6 +247,29 @@ body {
 .image:hover {
   filter: grayscale(100%);
   transition: all 0.2s ease-in;
+}
+
+.sidebar {
+  background: linear-gradient(45deg, grey, #292b2c);
+  float: left;
+  width: 250px;
+  height: 100vh;
+}
+
+.aside-card {
+  padding-top: 50px;
+}
+
+.aside-btns {
+  margin-bottom: 50px;
+}
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
 }
 
 footer {
