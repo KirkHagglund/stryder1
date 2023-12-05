@@ -114,11 +114,6 @@ body {
   opacity: 0.3;
 }
 
-.blog-img {
-  max-width: 300px;
-  float: left;
-}
-
 .middle {
   transition: 0.3s ease;
   opacity: 0;
@@ -175,112 +170,6 @@ body {
 .service-body {
   position: relative;
   top: 125px;
-}
-
-.video-container {
-  border-radius: 5px;
-  border: solid black 1px;
-  padding: 10px;
-}
-
-.video-card {
-  width: 50%;
-  padding: 5px;
-}
-
-#app-section {
-  max-width: 720px;
-}
-
-.app-card {
-  width: 250px;
-  position: relative;
-}
-
-.app-icon {
-  position: absolute;
-  top: 10%;
-  left: 0;
-  transform: translateX(19%);
-}
-
-.app-title {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateX(29%);
-}
-
-.app-description {
-  position: absolute;
-  top: 58%;
-  left: 0;
-  transform: translateX(12%);
-  width: 80%;
-}
-
-.app-apple {
-  position: absolute;
-  top: 75%;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-.app-google {
-  position: absolute;
-  top: 85%;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-#ebook-container {
-  margin: auto;
-  width: 90%;
-  justify-content: center;
-}
-
-.image {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.image:hover {
-  filter: grayscale(100%);
-  transition: all 0.2s ease-in;
-}
-
-.sidebar {
-  position: fixed;
-  background: linear-gradient(45deg, grey, #292b2c);
-  float: left;
-  width: 250px;
-  height: 100%;
-  top: 120px;
-  overflow-x: hidden;
-}
-
-.aside-card {
-  padding-top: 50px;
-}
-
-.aside-btns {
-  margin-bottom: 50px;
-}
-
-#main-content {
-  margin-left: 250px;
-  min-height: 50vh;
-}
-
-.content {
-  display: none;
-}
-
-.content.active {
-  display: block;
 }
 
 footer {
