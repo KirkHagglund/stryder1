@@ -54,7 +54,7 @@ body {
 
 #home-splash {
   margin: 0 auto 36px;
-  max-width: 1600px;
+  max-width: 1800px;
 }
 
 .splash-wrapper {
@@ -183,4 +183,83 @@ footer {
 
 .footer-child {
   margin-bottom: 0rem;
+}
+
+@media only screen and (max-width: 1238px) {
+  #service-section {
+    top: 270px;
+  }
+  #about-section {
+    top: 275px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  body {
+    padding-top: 100px;
+  }
+  .splash-wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #hero-text {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    transform: translateX(-9%);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #hero-heading {
+    font-size: 40px;
+  }
+  #hero-p {
+    font-size: large;
+  }
+  #content-box {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #hero-heading {
+    font-size: 36px;
+  }
+  #hero-p {
+    font-size: medium;
+    font-weight: bold;
+  }
+  #hero-text {
+    top: 175px;
+  }
+  #content-box {
+    min-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #splash-wrapper {
+    max-height: 400px;
+    max-width: 640px;
+    overflow: hidden;
+  }
+  #hero-img {
+    height: 360px;
+    width: 640px;
+    transform: translateX(-15%);
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  #hero-img {
+    transform: translateX(-20%);
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #hero-img {
+
+  }
 }
