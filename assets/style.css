@@ -296,6 +296,10 @@ footer {
   .test-text {
     font-size: 2.25vw;
   }
+  #contact-container {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
