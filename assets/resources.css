@@ -111,3 +111,41 @@ footer {
 .footer-child {
   margin-bottom: 0rem;
 }
+
+@media only screen and (max-width: 980px) {
+  .sidebar {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 120px;
+  }
+  .aside-card {
+    padding-top: 0;
+    display: flex;
+    flex-direction: row!important;
+    justify-content: center;
+  }
+  .aside-card a {
+    width: 200px;
+  }
+  .aside-btns {
+    margin: auto;
+    margin-top: 10px;
+    max-width: 200px;
+    height: 80px;
+  }
+  #main-content {
+    margin: auto;
+    margin-top: 100px;
+    min-height: fit-content;
+  }
+  .blog-heading {
+    display: none;
+  }
+  .blog-img {
+    max-width: 35%;
+  }
+  .blog-text {
+    max-width: 95%;
+  }
+}
